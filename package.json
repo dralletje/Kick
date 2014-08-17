@@ -1,9 +1,11 @@
 {
   "name": "mckick",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Kicks a connecting minecraft user.",
   "main": "index.js",
-  "bin" : { "kick" : "./build/app.js" },
+  "bin": {
+    "kick": "./build/app.js"
+  },
   "dependencies": {
     "bluebird": "^2.3.0",
     "coffee-script": "^1.7.1",
