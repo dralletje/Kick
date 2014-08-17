@@ -1,6 +1,6 @@
 {
   "name": "mckick",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Kicks a connecting minecraft user.",
   "main": "index.js",
   "bin": {
