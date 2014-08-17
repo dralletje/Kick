@@ -13,7 +13,7 @@ gulp.task "coffee", (cb) ->
   gulp.src(paths.coffee)
     .pipe(plumber())
     .pipe(coffee(bare: true))
-    .pipe(header("// Dragoman translator by Michiel Dral \n"))
+    .pipe(header("#!/bin/env node \n"))
     .pipe(gulp.dest('./build/'))
     .on "end", ->
       console.log "Done compiling Coffeescript!"
