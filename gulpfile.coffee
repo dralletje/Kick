@@ -13,7 +13,7 @@ gulp.task "coffee", (cb) ->
   gulp.src(paths.coffee)
     .pipe(plumber())
     .pipe(coffee(bare: true))
-    .pipe(header("#!/bin/env node \n"))
+    .pipe(header("#!/usr/bin/env node \n// Minecraft Kick server! :-D"))
     .pipe(gulp.dest('./build/'))
     .on "end", ->
       console.log "Done compiling Coffeescript!"

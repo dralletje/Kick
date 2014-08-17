@@ -1,5 +1,5 @@
-// Dragoman translator by Michiel Dral 
-var Dragoman, EventEmitter, MESSAGE, PORT, Promise, ReadableStream, client, dragoman, minecraftProtocol, net, packets, server, _, _ref, _ref1,
+#!/usr/bin/env node 
+// Minecraft Kick server! :-Dvar Dragoman, EventEmitter, MESSAGE, PORT, Promise, ReadableStream, client, dragoman, minecraftProtocol, net, packets, server, _, _ref, _ref1,
   __slice = [].slice;
 
 Dragoman = require('dragoman');

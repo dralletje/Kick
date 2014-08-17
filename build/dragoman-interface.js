@@ -1,5 +1,5 @@
-// Dragoman translator by Michiel Dral 
-var varint;
+#!/usr/bin/env node 
+// Minecraft Kick server! :-Dvar varint;
 
 varint = require('varint').encode;
 
